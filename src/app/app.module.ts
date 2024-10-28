@@ -3,14 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { IndiaComponent } from './Component/india/india.component';
+import { USAComponent } from './Component/usa/usa.component';
+import { IndiaModule } from './Modules/india/india.module';
+import { USAModule } from './Modules/usa/usa.module';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IndiaComponent,
+    USAComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IndiaModule,
+    USAModule
   ],
   providers: [],
   bootstrap: [AppComponent]
