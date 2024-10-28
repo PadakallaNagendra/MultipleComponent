@@ -7,6 +7,8 @@ import { IndiaComponent } from './Component/india/india.component';
 import { USAComponent } from './Component/usa/usa.component';
 import { IndiaModule } from './Modules/india/india.module';
 import { USAModule } from './Modules/usa/usa.module';
+import { SharingDataParentChiledCompanyComponent } from './Component/sharing-data-parent-chiled-company/sharing-data-parent-chiled-company.component';
+import { GetdataFromParentChiledEmployeeComponent } from './Component/getdata-from-parent-chiled-employee/getdata-from-parent-chiled-employee.component';
 
 
 @NgModule({
@@ -14,6 +16,8 @@ import { USAModule } from './Modules/usa/usa.module';
     AppComponent,
     IndiaComponent,
     USAComponent,
+    SharingDataParentChiledCompanyComponent,
+    GetdataFromParentChiledEmployeeComponent,
    
   ],
   imports: [
